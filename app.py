@@ -6,7 +6,7 @@ Gère les utilisateurs, soldes FMA, transactions et communication avec le bridge
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from supabase import create_client, Client
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 import hashlib
 import secrets
